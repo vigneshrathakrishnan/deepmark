@@ -1,6 +1,9 @@
 # Ignore MySQL DB binary files
 db-data/
 
+# Ignore Backups
+wp-content/ai1wm-backups/*.wpress
+
 # Editor junk
 .vscode/
 .idea/
