@@ -2,7 +2,7 @@
 db-data/
 
 # Ignore Backups
-wp-content/ai1wm-backups/*.wpress
+wp-data/wp-content/ai1wm-backups/*.wpress
 
 # Editor junk
 .vscode/
