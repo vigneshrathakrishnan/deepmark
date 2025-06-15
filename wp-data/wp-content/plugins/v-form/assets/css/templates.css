@@ -1,0 +1,186 @@
+.vf-templates-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    display: grid;
+    gap: 30px 20px;
+    justify-content: center;
+    width: 80%;
+    float: right;
+}
+.vf-template-demo-block {
+    background: #FFFFFF;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    transition: height 1s, width 1s;
+    -webkit-transition: height 1s, width 1s;
+}
+.vf-template-demo-block .vf-thumb-template {
+    overflow: hidden;
+    align-items: flex-end;
+    aspect-ratio: 1.46 / 1;
+}
+.vf-template-demo-block .no-thumb-template, .vf-template-demo-block .vf-thumb-template {
+    aspect-ratio: 1;
+    background: #f8f7f3;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    grid-area: thumbnail;
+    justify-content: center;
+    line-height: 1;
+    text-align: center;
+}
+.vf-template-demo-block .vf-thumb-template a {
+    height: 91%;
+}
+.vf-template-demo-block .vf-thumb-template img {
+    border-radius: 2px 2px 0 0;
+    height: 100%;
+}
+
+.vf-template-demo-block .vf-content {
+    padding: 20px;
+}
+.vf-template-demo-block .vf-content .vf-entry-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0;
+    font-size: clamp(10px, 2.5vw, 14px);
+    font-weight: 400;
+    line-height: clamp(18px, 2.5vw, 22px);
+}
+.vf-template-demo-block .vf-actions {
+    padding: 0 20px 20px!important;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+.vf-template-demo-block .vf-actions a {
+    align-items: center;
+    display: flex;
+    font-size: clamp(12px, 1.5vw, 14px);
+    font-weight: 600;
+    justify-content: center;
+    line-height: 14px;
+    padding: 12px;
+    margin: 0px 10px;
+}
+.vf-actions a {
+    background-color: #f97316!important;
+    border: none!important;
+    box-shadow: none;
+    color: #fff!important;
+}
+.vf-template-demo-block .vf-actions .button-light-gray {
+    background: #FFFFFF!important;
+    border: 1px solid #707784!important;
+    color: #111827!important;
+}
+header.vf-entry-header a {
+    color: #444;
+    text-decoration: none;
+    cursor: inherit;
+}
+
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+width: 80%;
+float: right;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 12px;
+  color: #0073aa;
+  background-color: #f1f1f1;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.pagination a:hover {
+  background-color: #0073aa;
+  color: #fff;
+  border-color: #0073aa;
+}
+
+.pagination a.current-page {
+  background-color: #0073aa;
+  color: #fff;
+  pointer-events: none;
+  font-weight: bold;
+  border-color: #0073aa;
+}
+.vf-templates-cat {
+    width: 20%;
+    float: left;
+}
+.vf-templates-cat ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-right: 2px solid #e3d3d3;
+    margin-right: 30px;
+}
+.vf-templates-cat li a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.vf-templates-cat li a{
+    color:#444;
+    text-decoration: none;
+}
+.vf-templates-cat li a.active{
+    color:orange;
+}
+.vf-templates-cat li a:hover{
+    text-decoration: underline;
+}
+
+
+
+.vform_unlock {
+    border-top: 2px solid #e3d3d3;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+.vform_unlock button {
+    align-items: center;
+    display: flex;
+    font-size: clamp(12px, 1.5vw, 14px);
+    font-weight: 600;
+    justify-content: center;
+    line-height: 14px;
+    padding: 12px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.vform_unlock label {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px;
+}
+.vform_unlock input {
+    width: 100%;
+    height: 35px;
+    margin: 10px;
+}
+
+

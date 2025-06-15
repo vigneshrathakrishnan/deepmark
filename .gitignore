@@ -1,0 +1,12 @@
+# Ignore MySQL DB binary files
+db-data/
+
+# Editor junk
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+#.env
+.env.backup
+*.log

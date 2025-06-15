@@ -1,0 +1,150 @@
+
+
+
+div#logic-container2 button, div#logic-container2 button:hover {
+    width: 100%;
+    margin-bottom: 29px;
+    height: 49px;
+    background: darkslategray;
+}
+#logic-container2 {
+    padding: 20px;
+}
+/* Logic group container */
+.logic-group {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logic-group h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Input fields */
+#logic-container input[type="text"], #logic-container input[type="number"],#logic-container select {
+    width: 100%;
+    padding: 8px 10px;
+    /* margin: 5px 5px 10px; */
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+/* Table styling */
+.kb-logic-field-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.kb-logic-field-table th,
+.kb-logic-field-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.kb-logic-field-table th {
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+/* Buttons */
+#logic-container button, #logic-container2 button {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#logic-container button:hover, #logic-container2 button:hover {
+    background-color: #0056b3;
+}
+
+#logic-container button.remove-condition,
+#logic-container button.remove-logic-group {
+    background-color: #dc3545;
+}
+
+#logic-container button.remove-condition:hover,
+#logic-container button.remove-logic-group:hover {
+    background-color: #b52a37;
+}
+
+/* Add new logic group button */
+#add-logic-group {
+    background-color: #28a745;
+}
+
+#add-logic-group:hover {
+    background-color: #218838;
+}
+
+/* Add condition button */
+.add-condition {
+    background-color: #17a2b8;
+}
+
+.add-condition:hover {
+    background-color: #117a8b;
+}
+
+/* Condition group styling */
+.condition-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.condition-group select,
+.condition-group input[type="text"] {
+    margin-right: 10px;
+    flex: 1;
+    min-width: 150px;
+}
+
+.condition-group .logic-combination {
+    /* flex: 0 0 auto; */
+    /* display: none;  */
+    margin:0;
+    margin-right: 10px;
+}
+
+.condition-group .remove-condition {
+    flex: 0 0 auto;
+}
+.condition-group button {
+    margin: 0px !important;
+}
+.logic-group label {
+    display: block;
+    margin-top: 20px;
+}
+/* Logic combination styling */
+.logic-combination {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+div#logic-container2  #save-logic{
+    display: none;
+}
