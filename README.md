@@ -11,4 +11,4 @@ A ready-to-run Dockerized WordPress site with Elementor, plugins, and sample dat
 git clone https://github.com/vigneshrathakrishnan/deepmark.git
 cd deepmark
 chmod +x setup.sh
-./setup.sh
+sh ./setup.sh
